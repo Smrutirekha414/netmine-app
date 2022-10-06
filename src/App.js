@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Covid from "./components/covid";
+import Netflix from "./components/Netflix";
+//import "./index.css";
+//import Project1 from "./components/Project1";
+import Netmine from "./components/Netmine";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Netmine />
+      {/* <Project1 /> */}
+      {/* <Covid /> */}
+      {/* <Netflix /> */}
     </div>
   );
 }
